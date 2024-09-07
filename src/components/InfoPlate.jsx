@@ -7,7 +7,7 @@ function InfoPlate(props) {
         <img src={props.image} alt="" />
         <h4>{props.title}</h4>
         <p>{props.content}</p>
-        <a href="">Learn More</a>
+        <a href="">Learn More →</a>
       </div>
     </div>
   );
