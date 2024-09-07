@@ -1,5 +1,6 @@
 import React from "react";
 import SearchIcon from "@mui/icons-material/Search";
+import MenuIcon from "@mui/icons-material/Menu";
 import AbstractIcon from "./AbstractIcon";
 
 function Header() {
@@ -12,9 +13,14 @@ function Header() {
       <h1 className="header-help-center">
         <a href="">Help Center</a>
       </h1>
-      <button className="search-button">
-        <SearchIcon fontSize="large" />
-      </button>
+      <div className="header-button-container">
+        <button className="search-button">
+          <SearchIcon fontSize="large" />
+        </button>
+        <button className="menu-button">
+          <MenuIcon fontSize="large" />
+        </button>
+      </div>
     </header>
   );
 }
