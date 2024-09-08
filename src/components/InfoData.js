@@ -30,7 +30,7 @@ let infoData = [{
 
 },{
     key: 6,
-    image: "Set up and configure SSO, SCIM, and Just-in-Time provisioning.",
+    image: "https://help.abstract.com/hc/theming_assets/01HZH4D3G4S2K93BN3WJPT8600",
     title: "Abstract support",
     content: "Get in touch with a human."
 

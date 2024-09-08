@@ -9,16 +9,18 @@ function App() {
     <div>
       <Header />
       <HelpInput />
-      {infoData.map((info, index) => {
-        return (
-          <InfoPlate
-            key={index}
-            image={info.image}
-            title={info.title}
-            content={info.content}
-          />
-        );
-      })}
+      <div className="info-main">
+        {infoData.map((info, index) => {
+          return (
+            <InfoPlate
+              key={index}
+              image={info.image}
+              title={info.title}
+              content={info.content}
+            />
+          );
+        })}
+      </div>
     </div>
   );
 }
