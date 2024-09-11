@@ -3,6 +3,7 @@ import Header from "./header";
 import HelpInput from "./HelpInput";
 import InfoPlate from "./InfoPlate";
 import { infoData } from "./InfoData";
+import Footer from "./Footer";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           );
         })}
       </div>
+      <Footer />
     </div>
   );
 }

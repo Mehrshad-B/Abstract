@@ -1,0 +1,23 @@
+[33mcommit aff53747e83fdec65796abab4e18ec98cb0c2df3[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: Mehrshad <Besarati>
+Date:   Sun Sep 8 13:41:19 2024 -0400
+
+    completing InfoPlate.jsx adding info-text class div for text to align them adding grid and justify content at css for info plates by adding div with the class of info-main at theApp.jsx to make the grid. !! the plates are fully done next step is footer !!
+
+[33mcommit c5eb429f6f242c0acc4cfa93a1191d128ab79577[m
+Author: Mehrshad <Besarati>
+Date:   Fri Sep 6 20:13:08 2024 -0400
+
+    Adding all infoData to array
+
+[33mcommit cbedc8711cdb09f165df6dc859c34f3c3fb3b26a[m
+Author: Mehrshad <Besarati>
+Date:   Fri Sep 6 20:05:36 2024 -0400
+
+    Adding menu button & the InfoPlate and Info data array not making their css and not putting all six data
+
+[33mcommit a0e2d6a481858e3ef2e56a911c16ee871fa0a187[m
+Author: Mehrshad <Besarati>
+Date:   Fri Sep 6 01:00:18 2024 -0400
+
+    Adding the search bar and arrow button

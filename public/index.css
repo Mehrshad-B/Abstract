@@ -119,6 +119,10 @@ header a {
   text-decoration: none;
 }
 
+.info-link:hover {
+  text-decoration: underline;
+}
+
 .info-container {
   height: 300px;
   width: 300px;
@@ -146,4 +150,15 @@ header a {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
+}
+
+.footer-container {
+  height: 25%;
+  background-color: black;
+  color: white;
+}
+
+.copyright-footer-container {
+  height: 150px;
+  width: 250px;
 }
