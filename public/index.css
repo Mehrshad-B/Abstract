@@ -153,12 +153,41 @@ header a {
 }
 
 .footer-container {
-  height: 25%;
+  position: relative;
+  padding: 0 30px 60px 30px;
+  height: 700px;
+  font-size: 16px;
   background-color: black;
   color: white;
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 5px;
+}
+
+.footer-column {
+  display: inline-block;
+  vertical-align: top;
+  height: 250px;
+  width: 250px;
 }
 
 .copyright-footer-container {
+  position: absolute;
+  font-size: 20px;
   height: 150px;
   width: 250px;
+  bottom: 60px;
+  right: 30px;
+  line-height: 24px;
+}
+
+.copyright-footer-container .abstract-logo {
+  margin: 0 0 20px 0;
+  height: 35px;
+  width: 35px;
+}
+
+.footer-container a {
+  text-decoration: none;
+  color: white;
 }
