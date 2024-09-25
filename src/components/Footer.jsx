@@ -18,6 +18,7 @@ function Footer() {
         <a href="">Release Notes</a>
         <a href="">Status</a>
       </div>
+
       <div className="footer-column">
         <h3 className="footer-title">Community</h3>
         <a href="">Twitter</a>
@@ -26,6 +27,7 @@ function Footer() {
         <a href="">Dribbble</a>
         <a href="">Podcast</a>
       </div>
+
       <div className="footer-column">
         <h3 className="footer-title">Company</h3>
         <a href="">About Us</a>
@@ -36,6 +38,7 @@ function Footer() {
         <strong>Contact Us</strong>
         <a href="mailto:info@abstract.com">info@abstract.com</a>
       </div>
+
       <div className="copyright-footer-container">
         <AbstractIcon />
         <p>Copyright ⓒ {currentYear}</p>

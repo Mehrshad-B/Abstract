@@ -160,15 +160,26 @@ header a {
   background-color: black;
   color: white;
   display: grid;
-  grid-template-columns: auto auto;
-  gap: 5px;
+  grid-template-columns: 350px 350px;
+  grid-template-rows: 250px 250px 250px;
 }
 
 .footer-column {
-  display: inline-block;
-  vertical-align: top;
-  height: 250px;
-  width: 250px;
+  height: 200px;
+  width: 350px;
+  font-size: 20px;
+}
+
+.footer-title {
+  margin: 40px 0 20px 0;
+}
+
+#break {
+  margin-bottom: 30px;
+}
+
+strong {
+  font-size: 16px;
 }
 
 .copyright-footer-container {
@@ -188,6 +199,13 @@ header a {
 }
 
 .footer-container a {
+  display: block;
+  margin-bottom: 5px;
   text-decoration: none;
   color: white;
+  font-size: 16px;
+}
+
+.footer-container a:hover {
+  text-decoration: underline;
 }
