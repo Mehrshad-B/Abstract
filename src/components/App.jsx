@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Header from "./header";
+import Header from "./Header";
 import HelpInput from "./HelpInput";
 import InfoPlate from "./InfoPlate";
 import { infoData } from "./InfoData";

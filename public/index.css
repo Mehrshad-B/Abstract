@@ -7,11 +7,20 @@
 body {
   font-family: "GT America Standard", sans-serif;
 }
+
 header {
   height: 90px;
   display: flex;
   align-items: center;
   background: #000000;
+}
+
+.search-header {
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
 }
 
 header h1 {
@@ -64,6 +73,12 @@ header a {
   border: none;
 }
 
+.close-button {
+  margin-left: 10px;
+  background: none;
+  border: none;
+}
+
 .help-input {
   background-color: #dadbf1;
   height: 370px;
@@ -83,6 +98,16 @@ header a {
   width: 75%;
 }
 
+.search-header .search-input {
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 4px;
+  width: 75%;
+  height: 55px;
+  font-size: 20px;
+  padding: 16px 16px;
+}
+
 .help-input .search-input {
   background-color: white;
   border: 1px solid black;
@@ -90,7 +115,7 @@ header a {
   width: 100%;
   height: 65px;
   font-size: 20px;
-  padding-left: 20px;
+  padding: 16px 16px;
 }
 
 .input-button {
@@ -154,7 +179,7 @@ header a {
 
 .footer-container {
   position: relative;
-  padding: 0 30px 60px 30px;
+  padding: 0 75px 60px 75px;
   height: 700px;
   font-size: 16px;
   background-color: black;
@@ -184,6 +209,7 @@ strong {
 
 .copyright-footer-container {
   position: absolute;
+  margin-right: 50px;
   font-size: 20px;
   height: 150px;
   width: 250px;
