@@ -83,7 +83,7 @@ header a {
   background-color: #dadbf1;
   height: 370px;
   text-align: center;
-  padding-top: 10%;
+  padding-top: 5%;
 }
 
 .help-input h1 {
@@ -131,13 +131,15 @@ header a {
 }
 
 .info-main {
-  display: grid;
-  padding: 100px 50px 100px 50px;
-  grid-template-columns: auto auto;
-  grid-template-rows: auto 400px auto;
+  display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  column-gap: 70px;
-  row-gap: 30px;
+  padding: 150px 50px 100px 50px;
+  /* grid-template-columns: auto auto;
+  grid-template-rows: auto 400px auto; */
+  /* justify-content: center; */
+  /* column-gap: 70px;
+  row-gap: 30px; */
 }
 
 .info-link {
@@ -149,8 +151,9 @@ header a {
 }
 
 .info-container {
-  height: 300px;
-  width: 300px;
+  margin-bottom: 50px;
+  height: 205px;
+  width: 735px;
 }
 
 .info-container h4 {
@@ -160,7 +163,7 @@ header a {
 
 .info-container p {
   font-size: 24px;
-  width: 200px;
+  /* width: 200px; */
   margin: 0 0 20px 0px;
 }
 
