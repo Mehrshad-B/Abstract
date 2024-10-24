@@ -55,6 +55,20 @@ header a {
   margin-right: 70px;
 }
 
+.submit-button {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.submit-button button {
+  color: white;
+  outline-color: white;
+}
+
+.signin-button {
+  display: inline-block;
+}
+
 .search-button {
   color: white;
   margin-right: 4px;
@@ -87,7 +101,7 @@ header a {
 }
 
 .help-input h1 {
-  font-size: 4rem;
+  font-size: 4.5rem;
   font-weight: lighter;
   margin-bottom: 15px;
 }
@@ -112,7 +126,7 @@ header a {
   background-color: white;
   border: 1px solid black;
   border-radius: 4px;
-  width: 100%;
+  width: 50%;
   height: 65px;
   font-size: 20px;
   padding: 16px 16px;
@@ -121,7 +135,7 @@ header a {
 .input-button {
   position: absolute;
   top: 50%;
-  right: 20px;
+  right: 26%;
   margin-top: 3px;
   transform: translateY(-50%);
   background: none;

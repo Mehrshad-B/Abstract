@@ -3,6 +3,7 @@ import SearchIcon from "@mui/icons-material/Search";
 import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
 import AbstractIcon from "./AbstractIcon";
+import Button from "@mui/material/Button";
 
 function Header() {
   const [isClicked, setClick] = useState(false);
@@ -32,12 +33,23 @@ function Header() {
             <a href="">Help Center</a>
           </h1>
           <div className="header-button-container">
-            <button className="search-button" onClick={openClick}>
+            {/* <button className="search-button" onClick={openClick}>
               <SearchIcon fontSize="large" />
             </button>
             <button className="menu-button">
               <MenuIcon fontSize="large" />
-            </button>
+            </button> */}
+            <div className="submit-button">
+              <Button variant="outlined" size="large">
+                Submit a request
+              </Button>
+            </div>
+
+            <div className="signin-button">
+              <Button variant="contained" size="large">
+                Sign in
+              </Button>
+            </div>
           </div>
         </header>
       )}
