@@ -62,11 +62,15 @@ header a {
 
 .submit-button button {
   color: white;
-  outline-color: white;
+  border-color: white;
 }
 
 .signin-button {
   display: inline-block;
+}
+
+.signin-button button {
+  background: #4c5fd5;
 }
 
 .search-button {
@@ -196,14 +200,15 @@ header a {
 
 .footer-container {
   position: relative;
-  padding: 0 75px 60px 75px;
-  height: 700px;
+  padding: 0 75px 200px 100px;
   font-size: 16px;
   background-color: black;
   color: white;
-  display: grid;
+  display: flex;
+  flex-wrap: wrap;
+  /* display: grid;
   grid-template-columns: 350px 350px;
-  grid-template-rows: 250px 250px 250px;
+  grid-template-rows: 250px 250px 250px; */
 }
 
 .footer-column {
@@ -225,13 +230,12 @@ strong {
 }
 
 .copyright-footer-container {
-  position: absolute;
+  position: relative;
+  top: 190px;
   margin-right: 50px;
   font-size: 20px;
   height: 150px;
   width: 250px;
-  bottom: 60px;
-  right: 30px;
   line-height: 24px;
 }
 

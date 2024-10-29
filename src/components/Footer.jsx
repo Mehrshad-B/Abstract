@@ -4,7 +4,7 @@ import AbstractIcon from "./AbstractIcon";
 function Footer() {
   const currentYear = new Date().getFullYear();
   return (
-    <footer className="footer-container">
+    <div className="footer-container">
       <div className="footer-column">
         <h3 className="footer-title">Abstract</h3>
         <a href="">Start Trial</a>
@@ -45,7 +45,7 @@ function Footer() {
         <p>Abstract Studio Design, Inc.</p>
         <p>All rights reserved</p>
       </div>
-    </footer>
+    </div>
   );
 }
 
